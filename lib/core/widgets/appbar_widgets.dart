@@ -13,6 +13,7 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      scrolledUnderElevation: 0,
       elevation: 0,
       backgroundColor: Colors.transparent,
       leading: Padding(
